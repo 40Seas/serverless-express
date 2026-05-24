@@ -1,0 +1,15 @@
+# Serverless Express
+
+## MANDATORY: Read AI Rules via MCP
+
+This repo is connected to the **40seas-ai-rules** MCP server. Before doing any work:
+
+1. The `.mcp.json` in this repo registers the MCP server at `mcp.reevol.com`
+2. Call the `get_rules_for_repo` tool to fetch the rules relevant to this repository
+3. Follow those rules before writing any code
+
+If MCP is unavailable, check `40Seas/common` repo's `.ai-rules/` directory for the rules.
+
+## MCP Setup (one-time)
+
+See `40Seas/common`: `services/mcp-ai-rules/docs/CONSUMER-SETUP.md` for token setup.
