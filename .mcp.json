@@ -1,7 +1,7 @@
 {
     "mcpServers": {
         "40seas-ai-rules": {
-            "transport": "http",
+            "type": "http",
             "url": "https://mcp.reevol.com/mcp",
             "headers": {
                 "Authorization": "Bearer ${MCP_AI_RULES_TOKEN}"
